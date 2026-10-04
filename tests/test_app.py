@@ -7,4 +7,4 @@ def test_home():
     response = client.get("/")
 
     assert response.status_code == 200
-    assert response.data == b"DevOps CI/CD pipeline is working!"
+    assert response.data == b"DevOps CI/CD pipeline is working successfully!"
